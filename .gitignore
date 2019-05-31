@@ -5,7 +5,9 @@
 *.war
 *.ear
 
+build/
 out/
 javadocs/
 .idea/
+.gradle/
 

@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 public class Specifier {
 
   static final String REGEX =
-    "(?<!\\%)\\%([-\\#+ 0,(]*)([1-9]?)(\\.?[0-9]?)([dfosxbhcegat])";
+    "(?<!\\%)\\%([-\\#+ 0,(]*)([1-9]?[0-9]?)(\\.?[0-9]?)([dfosxbhcegat])";
   //    not%   %    flags       width     .width   conversion
 
   static final Pattern PATTERN = Pattern.compile(REGEX, Pattern.DOTALL);

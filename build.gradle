@@ -1,0 +1,21 @@
+apply plugin: 'java'
+
+sourceSets {
+  main.java.srcDirs = ['src']
+  test.java.srcDirs = ['test']
+}
+    
+repositories {
+    mavenCentral()
+}
+ 
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+test {
+  reports {
+        junitXml.enabled = false
+        html.enabled = true
+    }  
+}
