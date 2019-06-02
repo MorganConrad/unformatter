@@ -1,3 +1,6 @@
+[![Build Status](https://secure.travis-ci.org/MorganConrad/unformatter.png)](http://travis-ci.org/MorganConrad/unformatter)
+
+
 unformatter
 ====
 
